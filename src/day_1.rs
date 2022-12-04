@@ -75,7 +75,7 @@ mod tests {
     #[test]
     fn test_max_elf_calories() {
         assert_eq!(
-            max_elf_calories("src/inputFiles/aoc_1_1_example.txt"),
+            max_elf_calories("src/inputFiles/1_example.txt"),
             24000
         );
     }
@@ -83,7 +83,7 @@ mod tests {
     #[test]
     fn test_top_n_elf_calories() {
         assert_eq!(
-            top_n_elf_calories(3, "src/inputFiles/aoc_1_1_example.txt"),
+            top_n_elf_calories(3, "src/inputFiles/1_example.txt"),
             45000
         );
     }
